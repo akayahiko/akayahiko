@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="alt-lab project">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#07101b"/>
+      <stop offset=".55" stop-color="#0d1020"/>
+      <stop offset="1" stop-color="#161129"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="190" rx="20" fill="url(#bg)"/>
+  <rect x=".75" y=".75" width="1198.5" height="188.5" rx="19.25" fill="none" stroke="#293548" stroke-width="1.5"/>
+  <rect x="0" y="0" width="7" height="190" rx="3.5" fill="url(#accent)"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="42" y="52" fill="#67e8f9" font-size="18">SELECTED PROJECT</text>
+    <text x="42" y="96" fill="#f8fafc" font-size="34" font-weight="700">alt-lab</text>
+    <text x="42" y="130" fill="#cbd5e1" font-size="17">ALT Linux administration · theory · command examples · PDF reference</text>
+    <text x="42" y="160" fill="#64748b" font-size="15">Sphinx · documentation tooling · automated checks</text>
+
+    <g transform="translate(907 44)">
+      <rect width="238" height="98" rx="14" fill="#070b13" stroke="#334155"/>
+      <text x="22" y="37" fill="#94a3b8" font-size="15">$ docs --build</text>
+      <text x="22" y="70" fill="#86efac" font-size="16">ready ✓</text>
+      <circle cx="198" cy="65" r="5" fill="#86efac">
+        <animate attributeName="opacity" values=".45;1;.45" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
